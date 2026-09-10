@@ -16,7 +16,7 @@ Data comes from the [Sartorius Cell Instance Segmentation](https://www.kaggle.co
 
 ## The problem
 
-Counting and measuring cells by hand is slow and inconsistent, and phase-contrast images make it harder than it sounds: neurons overlap, they have thin processes that blur into the background, and the contrast between cell and medium is low. Semantic segmentation isn't enough here — you need *instance* segmentation, because two touching cells have to come out as two objects, not one blob.
+Counting and measuring cells by hand is slow and inconsistent, and phase-contrast images make it harder than it sounds: neurons overlap, they have thin processes that blur into the background, and the contrast between cell and medium is low. Semantic segmentation isn't enough here - you need *instance* segmentation, because two touching cells have to come out as two objects, not one blob.
 
 ## Approach
 
@@ -28,7 +28,7 @@ Counting and measuring cells by hand is slow and inconsistent, and phase-contras
 
 Scored with mean Average Precision across IoU thresholds from 0.50 to 0.95, which is the standard metric for this dataset. It's a demanding measure for cell segmentation: at the high thresholds, a mask that's visibly correct to a human can still score zero if the boundary is a few pixels off. That's part of why numbers on this task look low compared to typical classification benchmarks.
 
-Exact figures aren't reproduced here — the trained checkpoint isn't in the repo, and I'd rather leave the section empty than quote a number I can't regenerate.
+Exact figures aren't reproduced here - the trained checkpoint isn't in the repo, and I'd rather leave the section empty than quote a number I can't regenerate.
 
 What I can say about behaviour, from inspecting predictions:
 
