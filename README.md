@@ -52,7 +52,7 @@ pip install -r requirements.txt
 jupyter notebook cell_segmentation.ipynb
 ```
 
-Detectron2 needs to be installed separately and is version-sensitive about CUDA — see the [official install guide](https://detectron2.readthedocs.io/en/latest/tutorials/install.html).
+Detectron2 needs to be installed separately and is version-sensitive about CUDA - see the [official install guide](https://detectron2.readthedocs.io/en/latest/tutorials/install.html).
 
 ---
 
