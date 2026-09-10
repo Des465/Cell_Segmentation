@@ -1,7 +1,5 @@
 # Neuronal Cell Instance Segmentation
 
-# Neuronal Cell Instance Segmentation
-
 Segmenting individual neuronal cells from phase-contrast microscopy images, using Detectron2 and a Cascade Mask R-CNN with a ResNet-152 backbone.
 
 Data comes from the [Sartorius Cell Instance Segmentation](https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation) dataset.
