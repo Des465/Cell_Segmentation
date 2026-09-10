@@ -28,8 +28,6 @@ Counting and measuring cells by hand is slow and inconsistent, and phase-contras
 
 Scored with mean Average Precision across IoU thresholds from 0.50 to 0.95, which is the standard metric for this dataset. It's a demanding measure for cell segmentation: at the high thresholds, a mask that's visibly correct to a human can still score zero if the boundary is a few pixels off. That's part of why numbers on this task look low compared to typical classification benchmarks.
 
-Exact figures aren't reproduced here - the trained checkpoint isn't in the repo, and I'd rather leave the section empty than quote a number I can't regenerate.
-
 What I can say about behaviour, from inspecting predictions:
 
 - **Isolated cells are close to solved.** Clean, well-separated cells segment reliably, and the remaining error is boundary precision rather than detection.
